@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="du">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- ----------main style------------ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- ------------Google Fonts-------------- -->
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <!-- --------------Icon pack font-awesome----------- -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <style>
+            .navbar{
+                background-color: rgb(0, 0, 0);  
+
+            }
+            
+            .logo h4{
+                color: whitesmoke;
+                padding: 0px 35px;
+            }
+            *{
+                margin: 0;
+            }
+            #item li a{
+                padding: 0px 20px;
+                color: white;
+            }
+            #item{
+                padding: 35px;
+            }
+            
+ 
+        </style>
+        <title>MAHALAXMI | World's Best Market</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <h4>MAHALAXMI</h4>
+                    </div>
+                    <nav>
+                        <ul id="menu-items">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index2.html">Products</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="register.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cart.png" alt="cart" width="30px" height="30px" class="cart-img">
+                    <img src="images/menu.png" alt="menu" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+                </div>
+                <div class="category">
+                    <nav>
+                        <ul id="item">
+                            <li><a href="cooler.html">Cooler</a></li>
+                            
+                            <li><a href="fan.html">Fans</a></li>
+                            
+                            <li><a href="mobile.html">Mobiles</a></li>
+                            <li><a href="tv.html">Televisions</a></li>
+                            <li><a href="laptop.html">Laptop</a></li>
+                            <li><a href="headphone.html">Headphones</a></li>
+                            <li><a href="gyser.html">Gysers</a></li>
+                            <li><a href="watch.html">Watches</a></li>
+                            <li><a href="refrigerator.html">Refrigerator</a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <h1 class="text-white"> Great deals happening <br> Right Now!</h1>
+                        <p>Enjoy a safe, convenient shopping experience</p>
+                        <p>Shop stress-free from home. We’re ready to help, online or by phone.</p>
+                        <a href="" class="btn btn-main">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/laptop-banner.png" alt="banner-image" class="center">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- featured products -->
+        <div class="small-container mt-5">
+            <h2 class="title">Featured Products</h2>
+            <div class="row horizontal-scroll-wrapper squares">
+                <div class="col-4 box-container">
+                    <div class="image-overlay"></div>
+                    <img src="images/laptop/pic5.1.png" alt="laptop">
+                    <h5 class="product_name">HP Laptop</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">HP Laptop</h3>
+                        <h4 class="content-price">Rs 79999</h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Rs 79999</p>
+                    <!-- <div class="btn btn-secondary" title="Preview Item"><i class="fa fa-cart-plus" aria-hidden="true"></i>
+                    </div> -->
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/headphone/pic6.1.jpg" alt="Headphone">
+                    <h5 class="product_name">Gaming Headphone</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 20000</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/gyser/pic3.1.png" alt="Gyser">
+                    <h5 class="product_name">Havells Gyser</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="price_name" >Rs 7899</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/cooler/pic3.1.png" alt="Cooler">
+                    <h5 class="product_name">Havells Cooler</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 5699</p>
+                </div>
+            </div>
+            <!-- Latest products -->
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4 box-container">
+                    <img src="images/fridge/pic1.1.png" alt="Refrigerator">
+                    <h5 class="product_name">Samsung Refrigerator</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 20000</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/watches/pic1.1.png" alt="Camera">
+                    <h5 class="product_name">Premium Watch</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 1990</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/fans/pic1.1.png" alt="Havells Fan">
+                    <h5 class="product_name">Havells Fan</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 4999.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/cooler/pic2.1.png" alt="Smart Cooler">
+                    <h5 class="product_name">Smart Cooler</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 6999.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/mobile/pic4.1.png" alt="Samsung Mobile">
+                    <h5 class="product_name">Samsung Fold</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 79999.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/fridge/pic5.1.png" alt="Refrigerator">
+                    <h5 class="product_name">Godrej Refrigerator</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 12000</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/gyser/pic4.1.png" alt="Havells Gyser">
+                    <h5 class="product_name">Havells Gyser</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs7000.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/headphone/pic1.1.png" alt="Boat Headphone">
+                    <h5 class="product_name">Boat Rockerz 518</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 1500.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/tv/pic2.1.png" alt="Sony Tv">
+                    <h5 class="product_name">Sony HDDR</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 45000.00</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/watches/pic5.1.png" alt="Digi watch">
+                    <h5 class="product_name">Digi Watch</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 2000.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/mobile/pic6.1.png" alt="OnePlus Mobile">
+                    <h5 class="product_name">OnePlus Nord</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 27000</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/headphone/pic4.1.png" alt="Headphone">
+                    <h5 class="product_name">Boat SuperBass</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 2500</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/fridge/pic3.1.png" alt="LG Refrigerator">
+                    <h5 class="product_name">LG Refrigerator</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 30000</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/fans/pic4.1.png" alt="Crompton Fan">
+                    <h5 class="product_name">Crompton Fan</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 3000.99</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/cooler/pic4.1.png" alt="Crompton Cooler">
+                    <h5 class="product_name">Crompton Cooler</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs3000</p>
+                </div>
+                <div class="col-4 box-container">
+                    <img src="images/watches/pic4.1.png" alt="Premium Watch">
+                    <h5 class="product_name">Premium Watch</h5>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p class="price_name" >Rs 3000</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- offer -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="images/laptop/pic1.2.png" class="offer-img">
+                    </div>
+                    <div class="col-6 text-data text-white">
+                        <p>Top Prodcuts you should take it</p>
+                        <h1>Best Product limitd offer!</h1>
+                        
+                        <a href="" class="btn">Buy Now &#8594</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="locate">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <h3>My Google Maps Demo</h3>
+                        <div id="map"></div>
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- brands -->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/amazon_PNG24.png" alt="amazon logo">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/apple_logo_PNG19675.png" alt="apple logo">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/samsung_logo_PNG2.png" alt="samsung logo">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/mastercard_PNG7.png" alt="mastercard logo">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/paypal_PNG19.png" alt="mastercard logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------footer------ -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download our app</h3>
+                        <p>Top G5  Enabled Prodcuts with good support</p>
+                        <div class="app-logo">
+                            <img src="images/playstore.png" alt="">
+                            <img src="images/appstore.png" alt="">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images" alt="">
+                        <p>Best technology enabled product?</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021 Mahalaxmi </p>
+            </div>
+        </div>
+        <script src="main.js"></script>
+            <!--Load the API from the specified URL
+            * The async attribute allows the browser to render the page while the API loads
+            * The key parameter will contain your own API key (which is not needed for this tutorial)
+            * The callback parameter executes the initMap() function
+            -->
+    </body>
+
+</html>
